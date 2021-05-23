@@ -106,5 +106,5 @@ pip3 install -r requirements.txt
 ```
 - for Python2
 ```shell
-pip install -r requirements
+pip install -r requirements.txt
 ```
