@@ -1,11 +1,14 @@
 # Recommender Systems Project 1
 
-Department of Mathematics and Computer Science, Adam Mickiewicz University, 2021
+### Project description
 
-Author: Piotr Zioło, Szymon Grad
+This notebook contains basic data preprocessing that can be encountered in real business projects: check *project_1_data_preparation.ipynb*.
 
+The main part of the project is in the notebook *project_1_recommender_and_evaluation.ipynb*. Task there is to prepare user features, item features, code the recommender, tune it and validate it.
 
-## Preparing your computer
+Goal of the project is to achieve the best HR@10 in the final evaluation, code for which is provided at the very end of the notebook. The final evaluation should be done with seed=6789.
+
+### Preparing your computer
 
 1. Install [Anaconda](https://www.anaconda.com/products/individual) with Python 3.8.
 
@@ -94,8 +97,14 @@ Author: Piotr Zioło, Szymon Grad
 
 	To additionally add an automatic prompt for SSH password in Git Bash, copy a script similar to .bashrc from the git_configuration folder to your user folder. In the file change the name of the key (in the given file there are two given; you can just leave one).
 
-## Project info
+### Basic requirements installation
 
-This project contains two notebooks: *project_1_data_preparation*, *project_1_recommender_and_evaluation*. One of them is about data preprocessing and the other is about building a recommender and conducting the evaluation.
-
-
+Run in your environment:
+- for Python3
+```shell
+pip3 install -r requirements.txt
+```
+- for Python2
+```shell
+pip install -r requirements
+```
